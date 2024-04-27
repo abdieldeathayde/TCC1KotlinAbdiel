@@ -8,22 +8,22 @@
     tools:context=".SignUpActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/fragmentContainerView2"
-        android:layout_marginEnd="411dp"
+        android:name="com.example.tcc1abdiel.SignUpActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginBottom="731dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.988"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.301" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="185dp"
-        android:layout_height="87dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="24dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="32dp"
@@ -32,8 +32,8 @@
         android:src="@drawable/ifsc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875" />
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

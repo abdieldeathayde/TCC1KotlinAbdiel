@@ -28,6 +28,12 @@
             android:exported="true"
             android:theme="@style/Theme.TCC1Abdiel">
         </activity>
+        <activity
+            android:id="@+id/loginFragment"
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TCC1Abdiel">
+        </activity>
 
     </application>
 

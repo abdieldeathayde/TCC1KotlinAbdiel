@@ -5,15 +5,18 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
+import com.example.tcc1abdiel.R.id.fragmentContainerView2
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
 
-        val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerView2) as NavHostFragment
+        val navHostFragment = supportFragmentManager.findFragmentById(fragmentContainerView2) as NavHostFragment
         val navController: NavController = navHostFragment.navController
         NavigationUI.setupActionBarWithNavController(this, navController)
+
+
 //        setContent {
 //            TCC1AbdielTheme {
 //                // A surface container using the 'background' color from the theme

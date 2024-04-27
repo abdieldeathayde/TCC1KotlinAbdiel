@@ -5,17 +5,12 @@
     android:id="@+id/fragment_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView2"
-        android:layout="@layout/fragment_sign_up"
-        android:layout_width="203dp"
-        android:layout_height="687dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="196dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/navegacao" />
 
