@@ -1,3 +1,13 @@
+repositories {
+    mavenCentral()
+    maven {
+        url = uri("https://repo.spring.io/release")
+    }
+    maven {
+        url = uri("https://repository.jboss.org/maven2")
+    }
+}
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -40,7 +50,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
+        kotlinCompilerExtensionVersion = "1.8.10"
     }
     packaging {
         resources {
@@ -52,6 +62,7 @@ android {
 dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
+    implementation("androidx.core:core-ktx:+")
     val fragmentVersion = "1.6.2"
     implementation("androidx.fragment:fragment-ktx:$fragmentVersion")
 
